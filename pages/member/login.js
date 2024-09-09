@@ -288,13 +288,14 @@ export default function Login() {
                     登入
                   </MyButton>
                 </form>
-                <button
+
+                {/* <button
                   className="w-full py-2 mt-8 border-2 text-2xl cursor-pointer flex justify-center items-center rounded-[30px] text-small hover:bg-gray-100"
                   onClick={() => loginGoogleRedirect()}
                 >
                   <FcGoogle fontSize={20} />
                   <div className="mx-2">Google登入</div>
-                </button>
+                </button> */}
                 <p className="mt-4 text-tertiary-gray-100">
                   尚未成為會員嗎？
                   <Link
